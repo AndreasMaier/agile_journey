@@ -3,4 +3,7 @@
   <data-source source="LOCAL" name="Rails agile_journey: development" uuid="f05e0743-1848-4761-82b7-ba05cb1ae13d">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails agile_journey: production" uuid="d9ac0c02-5f56-4c6f-95c7-c8d8de10a843">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
