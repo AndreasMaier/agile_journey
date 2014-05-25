@@ -1,19 +1,19 @@
 # Set the working application directory
 # working directory "/path/to/app"
-working_directory '/workspace/agile_journey'
+working_directory '/home/token/workspace/agile_journey'
 
 # Unicorn PID file location
 # pid "/path/to/pids/unicorn.pid"
-pid '/workspace/agile_journey/pids/unicorn.pid'
+pid '/home/token/workspace/agile_journey/pids/unicorn.pid'
 
 # Path to logs
 # stderr_path "/path/to/log/unicorn.log"
 # stdout_path "/path/to/log/unicorn.log"
-stderr_path '/workspace/agile_journey/unicorn.log'
-stdout_path '/workspace/agile_journey/unicorn.log'
+stderr_path '/home/token/workspace/agile_journey/log/unicorn.log'
+stdout_path '/home/token/workspace/agile_journey/log/unicorn.log'
 
 # Unicorn socket
-listen '/tmp/unicorn.agile_journey.sock'
+listen '/tmp/unicorn.agilejourney.sock'
 
 # Number of processes
 # worker_processes 4
