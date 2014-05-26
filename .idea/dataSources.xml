@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3377806392">
+  <component name="DataSourceManagerImpl" format="xml" hash="459529277">
     <data-source source="LOCAL" name="Rails agile_journey: development" uuid="f05e0743-1848-4761-82b7-ba05cb1ae13d">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -15,6 +15,14 @@
       <jdbc-url>jdbc:postgresql:ajdb_prod</jdbc-url>
       <user-name>&lt;%= ENV['DB_PROD_USER'] %&gt;</user-name>
       <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfeedfe8dff5dffadff8dfe5dfeedff5dffadfebdff9dff9df8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails agile_journey: test" uuid="c1482fce-b86f-4c76-ab6a-e47e36b38221">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ajdb_test</jdbc-url>
+      <user-name>&lt;%= ENV['DB_TEST_USER'] %&gt;</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfeedfe8dff5dffedfefdff9dffedff5dffadfebdff9dff9df8ddff7df8adf8fdf94</user-password>
       <libraries />
     </data-source>
   </component>

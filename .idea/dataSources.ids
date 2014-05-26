@@ -6,4 +6,7 @@
   <data-source source="LOCAL" name="Rails agile_journey: production" uuid="d9ac0c02-5f56-4c6f-95c7-c8d8de10a843">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails agile_journey: test" uuid="c1482fce-b86f-4c76-ab6a-e47e36b38221">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

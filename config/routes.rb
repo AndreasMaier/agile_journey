@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   post 'tracker_hooks/update'
 
   get '/test', to: 'test#get'
